@@ -5,6 +5,7 @@ ChatLPSIC est une application de communication sécurisée client-serveur dével
 
 
 2. Installation
+   
 Il existe deux façons d'installer et de configurer le projet. Choisissez la méthode qui vous convient le mieux :
 
 Méthode 1 : Installation avec les dépendances

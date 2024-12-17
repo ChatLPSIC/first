@@ -1,6 +1,7 @@
 ChatLPSIC - Application de Communication Sécurisée
 
 1. Description du projet
+   
 ChatLPSIC est une application de communication sécurisée client-serveur développée en Python, permettant à plusieurs clients de communiquer de manière privée et sécurisée. Grâce à un chiffrement hybride RSA et AES, les messages échangés sont protégés contre les accès non autorisés. L'application peut fonctionner en réseau local ou sur Internet, et garantit la confidentialité des informations échangées.
 
 
@@ -25,6 +26,7 @@ Exécutez le fichier main.py directement pour voir le rendu du projet, sans beso
 
 
 3. Utilisation
+   
 Vous pouvez démarrer l'application en lançant le serveur ou en vous connectant en tant que client. Voici les grandes étapes :
 
 1. Configurer le serveur
@@ -35,7 +37,8 @@ Renseignez le pseudonyme et la description du client et l'adresse IP et le port 
 Une fois connecté, vous pouvez échanger des messages avec d'autres clients via une interface sécurisée, avec une option de chiffrement ou de non-chiffrement.
 
 
-5. Documentation complémentaire
+4. Documentation complémentaire
+   
 Pour une explication détaillée du projet, y compris des images illustrant l'interface et le fonctionnement interne, ainsi que des informations sur la structure des fichiers backend et comment chaque fichier fonctionne, consultez le fichier documentation.pdf inclus dans ce dépôt.
 
 Le fichier PDF contient :
@@ -46,6 +49,7 @@ Des captures d'écran pour mieux comprendre l'interface utilisateur et les inter
 Des explications sur le code de chaque fichier.
 
 5. Contribuer
+   
 Si vous souhaitez contribuer à ce projet, veuillez suivre les étapes suivantes :
 
 Forkez ce dépôt.

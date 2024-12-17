@@ -7,23 +7,29 @@ ChatLPSIC est une application de communication sécurisée client-serveur dével
 
 2. Installation
    
-Il existe deux façons d'installer et de configurer le projet. Choisissez la méthode qui vous convient le mieux :
+Pour installer et configurer le projet dans un environnement virtuel, suivez les étapes ci-dessous :
 
-Méthode 1 : Installation avec les dépendances
 Clonez ce dépôt GitHub :
 git clone https://github.com/ChatLPSIC/first.git
+
+Accédez au répertoire du projet :
+cd first
+
+Créez un environnement virtuel dans le répertoire du projet :
+python -m venv .venv
+
+Activez l'environnement virtuel :
+Sur Windows :
+.venv\Scripts\activate
+
+Sur Linux / macOS :
+source .venv/bin/activate
 
 Installez les dépendances à l'aide du fichier requirements.txt :
 pip install -r requirements.txt
 
-Exécutez le fichier main.py pour démarrer l'application.
-
-Méthode 2 : Installation avec environnement virtuel préconfiguré
-Décompressez les fichiers .venv.zip et chatlpsic_1.zip fournis dans le projet.
-Placez les dossiers .venv, .idea, et def dans un même répertoire.
-Ouvrez le projet avec un éditeur de code (par exemple, PyCharm).
-Exécutez le fichier main.py directement pour voir le rendu du projet, sans besoin d'installer les dépendances manuellement.
-
+Exécutez le fichier main.py pour démarrer l'application :
+python main.py
 
 3. Utilisation
    
